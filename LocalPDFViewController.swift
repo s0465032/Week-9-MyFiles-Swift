@@ -29,7 +29,7 @@ LoadLocalPDF()
     
     func LoadLocalPDF()
     {
-        webview.loadLocalPDF("testers")
+        webview.loadLocalPDF("Veganism in the news")
         //webview.loadExternalPDF("URL TO PDF")
     }
     /*

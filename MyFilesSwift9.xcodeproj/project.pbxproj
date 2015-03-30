@@ -14,8 +14,10 @@
 		3623B3E41AB79D4400AE0EE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3623B3E21AB79D4400AE0EE8 /* LaunchScreen.xib */; };
 		3623B3F01AB79D4400AE0EE8 /* MyFilesSwift9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623B3EF1AB79D4400AE0EE8 /* MyFilesSwift9Tests.swift */; };
 		3623B3FC1AB79D8B00AE0EE8 /* LocalPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623B3FB1AB79D8B00AE0EE8 /* LocalPDFViewController.swift */; };
-		3623B3FE1AB79ED800AE0EE8 /* testers.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3623B3FD1AB79ED800AE0EE8 /* testers.pdf */; };
 		CCC00CDE1ACA02050016E4F0 /* LoadExternalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC00CDD1ACA02050016E4F0 /* LoadExternalViewController.swift */; };
+		CCC00CE21ACA0A230016E4F0 /* Veganism in the news.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CCC00CDF1ACA0A230016E4F0 /* Veganism in the news.pdf */; };
+		CCC00CE31ACA0A230016E4F0 /* India Human Population.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CCC00CE01ACA0A230016E4F0 /* India Human Population.pdf */; };
+		CCC00CE41ACA0A230016E4F0 /* BIG SOCIOLOGY PAPER FINAL COPY.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CCC00CE11ACA0A230016E4F0 /* BIG SOCIOLOGY PAPER FINAL COPY.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +42,10 @@
 		3623B3EE1AB79D4400AE0EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3623B3EF1AB79D4400AE0EE8 /* MyFilesSwift9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFilesSwift9Tests.swift; sourceTree = "<group>"; };
 		3623B3FB1AB79D8B00AE0EE8 /* LocalPDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalPDFViewController.swift; sourceTree = "<group>"; };
-		3623B3FD1AB79ED800AE0EE8 /* testers.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = testers.pdf; sourceTree = "<group>"; };
 		CCC00CDD1ACA02050016E4F0 /* LoadExternalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadExternalViewController.swift; sourceTree = "<group>"; };
+		CCC00CDF1ACA0A230016E4F0 /* Veganism in the news.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Veganism in the news.pdf"; sourceTree = "<group>"; };
+		CCC00CE01ACA0A230016E4F0 /* India Human Population.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "India Human Population.pdf"; sourceTree = "<group>"; };
+		CCC00CE11ACA0A230016E4F0 /* BIG SOCIOLOGY PAPER FINAL COPY.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BIG SOCIOLOGY PAPER FINAL COPY.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +127,9 @@
 		3623B3F91AB79D5D00AE0EE8 /* PDF */ = {
 			isa = PBXGroup;
 			children = (
-				3623B3FD1AB79ED800AE0EE8 /* testers.pdf */,
+				CCC00CDF1ACA0A230016E4F0 /* Veganism in the news.pdf */,
+				CCC00CE01ACA0A230016E4F0 /* India Human Population.pdf */,
+				CCC00CE11ACA0A230016E4F0 /* BIG SOCIOLOGY PAPER FINAL COPY.pdf */,
 			);
 			name = PDF;
 			sourceTree = "<group>";
@@ -217,8 +223,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC00CE21ACA0A230016E4F0 /* Veganism in the news.pdf in Resources */,
+				CCC00CE31ACA0A230016E4F0 /* India Human Population.pdf in Resources */,
 				3623B3DF1AB79D4400AE0EE8 /* Main.storyboard in Resources */,
-				3623B3FE1AB79ED800AE0EE8 /* testers.pdf in Resources */,
+				CCC00CE41ACA0A230016E4F0 /* BIG SOCIOLOGY PAPER FINAL COPY.pdf in Resources */,
 				3623B3E41AB79D4400AE0EE8 /* LaunchScreen.xib in Resources */,
 				3623B3E11AB79D4400AE0EE8 /* Images.xcassets in Resources */,
 			);
