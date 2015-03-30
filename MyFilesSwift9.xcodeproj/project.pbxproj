@@ -15,6 +15,7 @@
 		3623B3F01AB79D4400AE0EE8 /* MyFilesSwift9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623B3EF1AB79D4400AE0EE8 /* MyFilesSwift9Tests.swift */; };
 		3623B3FC1AB79D8B00AE0EE8 /* LocalPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623B3FB1AB79D8B00AE0EE8 /* LocalPDFViewController.swift */; };
 		3623B3FE1AB79ED800AE0EE8 /* testers.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3623B3FD1AB79ED800AE0EE8 /* testers.pdf */; };
+		CCC00CDE1ACA02050016E4F0 /* LoadExternalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC00CDD1ACA02050016E4F0 /* LoadExternalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		3623B3EF1AB79D4400AE0EE8 /* MyFilesSwift9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFilesSwift9Tests.swift; sourceTree = "<group>"; };
 		3623B3FB1AB79D8B00AE0EE8 /* LocalPDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalPDFViewController.swift; sourceTree = "<group>"; };
 		3623B3FD1AB79ED800AE0EE8 /* testers.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = testers.pdf; sourceTree = "<group>"; };
+		CCC00CDD1ACA02050016E4F0 /* LoadExternalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadExternalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				3623B3FB1AB79D8B00AE0EE8 /* LocalPDFViewController.swift */,
+				CCC00CDD1ACA02050016E4F0 /* LoadExternalViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				3623B3DC1AB79D4400AE0EE8 /* ViewController.swift in Sources */,
 				3623B3DA1AB79D4400AE0EE8 /* AppDelegate.swift in Sources */,
+				CCC00CDE1ACA02050016E4F0 /* LoadExternalViewController.swift in Sources */,
 				3623B3FC1AB79D8B00AE0EE8 /* LocalPDFViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +435,7 @@
 				3623B3F51AB79D4400AE0EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3623B3F61AB79D4400AE0EE8 /* Build configuration list for PBXNativeTarget "MyFilesSwift9Tests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +444,7 @@
 				3623B3F81AB79D4400AE0EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
